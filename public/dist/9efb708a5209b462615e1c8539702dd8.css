@@ -1,0 +1,132 @@
+body,
+html {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    width: 100vw;
+    height: 100%
+}
+
+body {
+    min-height: 100%;
+    background-color: #f4f4f4
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
+}
+
+li,
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0
+}
+
+figure {
+    display: block;
+    margin: 0
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: top
+}
+
+.block {
+    margin-top: 2vw;
+}
+
+[aspectratio] {
+    position: relative;
+}
+[aspectratio]:before {
+    content: "";
+    display: block;
+    width: 1px;
+    margin-left: -1px;
+    height: 0;
+}
+
+[aspectratio-content] img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+/* banner图片 */
+
+[flexContainer] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+}
+
+[w-750-235] {
+    width: 100vw;
+}
+
+/* 布局图片 */
+
+[w-369] {
+    width: 49.2vw;
+}
+
+[w-369] h2 span {
+    background: #FF5000;
+    color: #fff;
+    display: inline-block;
+    border-radius: 0.53333vw;
+    font-size: 2.66667vw;
+    text-shadow: 0 0.26667vw 0.26667vw #FF5000;
+    padding: 0.26667vw 0.66667vw;
+    margin-right: 0.66667vw;
+}
+
+[w-375-224] {
+    width: 50vw;
+}
+
+
+
+[w-188-246] {
+    width: 25.06667vw;
+}
+
+[w-187-246] {
+    width: 24.93333vw
+}
+
+/* .dalibanner {
+    width: 750px;
+    height: 200px;
+    background: url('http://bpic.588ku.com/back_pic/05/35/92/065a38cbe77c60c.jpg');
+    background: url('http://90sheji.com/beijing/20289795.html');
+    
+    background-size: cover;
+} */
+.swiper-container{
+    width: 100vw;
+    height: 26.66667vw;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 1.33333vw;
+    left: 45%;
+}
+#top-banner-close{
+    position: absolute;
+    top: 1.06667vw;
+    right: 1.06667vw;
+    width: 2.66667vw;
+    height: 2.66667vw;
+    background: url('https://img20.360buyimg.com/da/jfs/t1843/324/2134861539/1329/b076942c/56c699e8N54391b78.png') no-repeat;
+    cursor: pointer;
+    z-index: 999;
+}
